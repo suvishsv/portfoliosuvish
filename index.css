@@ -2,9 +2,9 @@ body{
     background-color: rgb(255, 248, 243); 
 
 }
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 
 *{
     margin: 0;
@@ -685,8 +685,17 @@ i{
       padding: 6px 14px;
       font-size: 16px;
     }
-  }
+.contentpagebox1-h11,.contentpagebox1-h12,.contentpagebox1-h13,.contentpagebox1-h14 {
+    margin-left: 30px;
+}
 
+.contentpage1resume,.contentpage1About {
+    margin-left: 20px;
+}
+
+
+}
+  
 
 
 
@@ -698,15 +707,39 @@ i{
     .headerBox1 h1 {
       font-size: 45px;
     }
+  
+.contentpagebox1-h11,
+.contentpagebox1-h12,
+.contentpagebox1-h13,
+.contentpagebox1-h14 {
+    margin-left: 30px;
+}
+
+.contentpage1resume, .contentpage1About {
+    margin-left: 20px;
   }
 
+  .contentpagebox2 {
+      width: 30%;
+      position: absolute;
+      right: 5%;
+  }
 
+  .ProfilePicture{
+    width: 300px;
+    height: 350px;
+    position: relative;
+    top: 300px;
+    left: 15%;
+  }
 
+  
 
+}
 
 
   
-  @media (max-width: 768px) {
+  @media (max-width: 770px) {
     .headerBox2 nav ul {
       position: absolute;
       top: 70px;
@@ -741,6 +774,44 @@ i{
     .headbox2contact {
       display: none;
     }
+
+     .contentpagebox2 {
+      width: 20%;
+      position: absolute;
+      right: 5%;
+  }
+
+  .ProfilePicture{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 300px;
+    left: 5%;
+  }
+
+
+
+/* .contentpagebox2{
+    width: 40%;
+    /* height: 90vh; */
+    /* position: absolute;
+    right: 5%;
+    }  */
+
+/* .ProfilePicture{
+    width: 450px;
+    height: 500px;
+    border-radius:50% ;
+    border: 3px solid rgb(0, 0, 0);
+    position: relative;
+    top: 240px;
+    left: 20%;
+
+} */
+
+
+
+
   }
   
 
